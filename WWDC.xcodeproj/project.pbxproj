@@ -11,6 +11,13 @@
 		FA5493D822BF28DF0055E200 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5493D722BF28DF0055E200 /* Room.swift */; };
 		FA5493DB22BF32CA0055E200 /* RoomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5493DA22BF32CA0055E200 /* RoomList.swift */; };
 		FA5493DD22BF3E570055E200 /* RoomStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5493DC22BF3E570055E200 /* RoomStore.swift */; };
+		FA5493E222BF49E10055E200 /* OrderForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5493E122BF49E10055E200 /* OrderForm.swift */; };
+		FA5493E522BF4A120055E200 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5493E422BF4A120055E200 /* Order.swift */; };
+		FA5493E722BF50A30055E200 /* OrderHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5493E622BF50A30055E200 /* OrderHistory.swift */; };
+		FA5493E922BF549C0055E200 /* IconOrientationEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5493E822BF549C0055E200 /* IconOrientationEditor.swift */; };
+		FA5493EB22BF6A750055E200 /* BasicIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5493EA22BF6A750055E200 /* BasicIcon.swift */; };
+		FA5493ED22BF82460055E200 /* EggPlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5493EC22BF82460055E200 /* EggPlacementView.swift */; };
+		FA5493F122BF95780055E200 /* EggLocationPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5493F022BF95780055E200 /* EggLocationPicker.swift */; };
 		FAC36C3322BF05EC00F03CF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC36C3222BF05EC00F03CF9 /* AppDelegate.swift */; };
 		FAC36C3522BF05EC00F03CF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC36C3422BF05EC00F03CF9 /* SceneDelegate.swift */; };
 		FAC36C3722BF05EC00F03CF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC36C3622BF05EC00F03CF9 /* ContentView.swift */; };
@@ -43,6 +50,13 @@
 		FA5493D722BF28DF0055E200 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		FA5493DA22BF32CA0055E200 /* RoomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomList.swift; sourceTree = "<group>"; };
 		FA5493DC22BF3E570055E200 /* RoomStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomStore.swift; sourceTree = "<group>"; };
+		FA5493E122BF49E10055E200 /* OrderForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderForm.swift; sourceTree = "<group>"; };
+		FA5493E422BF4A120055E200 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		FA5493E622BF50A30055E200 /* OrderHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistory.swift; sourceTree = "<group>"; };
+		FA5493E822BF549C0055E200 /* IconOrientationEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconOrientationEditor.swift; sourceTree = "<group>"; };
+		FA5493EA22BF6A750055E200 /* BasicIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicIcon.swift; sourceTree = "<group>"; };
+		FA5493EC22BF82460055E200 /* EggPlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggPlacementView.swift; sourceTree = "<group>"; };
+		FA5493F022BF95780055E200 /* EggLocationPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggLocationPicker.swift; sourceTree = "<group>"; };
 		FAC36C2F22BF05EC00F03CF9 /* WWDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC36C3222BF05EC00F03CF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC36C3422BF05EC00F03CF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +117,28 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		FA5493E022BF49C60055E200 /* Essential */ = {
+			isa = PBXGroup;
+			children = (
+				FA5493E322BF49FD0055E200 /* Model */,
+				FA5493E122BF49E10055E200 /* OrderForm.swift */,
+				FA5493E622BF50A30055E200 /* OrderHistory.swift */,
+				FA5493E822BF549C0055E200 /* IconOrientationEditor.swift */,
+				FA5493EA22BF6A750055E200 /* BasicIcon.swift */,
+				FA5493EC22BF82460055E200 /* EggPlacementView.swift */,
+				FA5493F022BF95780055E200 /* EggLocationPicker.swift */,
+			);
+			path = Essential;
+			sourceTree = "<group>";
+		};
+		FA5493E322BF49FD0055E200 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA5493E422BF4A120055E200 /* Order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FAC36C2622BF05EC00F03CF9 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +162,7 @@
 		FAC36C3122BF05EC00F03CF9 /* WWDC */ = {
 			isa = PBXGroup;
 			children = (
+				FA5493E022BF49C60055E200 /* Essential */,
 				FA5493D622BF28AE0055E200 /* BuildFirstApp */,
 				FAC36C3222BF05EC00F03CF9 /* AppDelegate.swift */,
 				FAC36C3422BF05EC00F03CF9 /* SceneDelegate.swift */,
@@ -297,9 +334,16 @@
 			files = (
 				FA5493DD22BF3E570055E200 /* RoomStore.swift in Sources */,
 				FA5493DB22BF32CA0055E200 /* RoomList.swift in Sources */,
+				FA5493E222BF49E10055E200 /* OrderForm.swift in Sources */,
+				FA5493E522BF4A120055E200 /* Order.swift in Sources */,
 				FA5493D822BF28DF0055E200 /* Room.swift in Sources */,
+				FA5493E922BF549C0055E200 /* IconOrientationEditor.swift in Sources */,
+				FA5493E722BF50A30055E200 /* OrderHistory.swift in Sources */,
 				FAC36C3322BF05EC00F03CF9 /* AppDelegate.swift in Sources */,
+				FA5493ED22BF82460055E200 /* EggPlacementView.swift in Sources */,
 				FAC36C3522BF05EC00F03CF9 /* SceneDelegate.swift in Sources */,
+				FA5493EB22BF6A750055E200 /* BasicIcon.swift in Sources */,
+				FA5493F122BF95780055E200 /* EggLocationPicker.swift in Sources */,
 				FAC36C3722BF05EC00F03CF9 /* ContentView.swift in Sources */,
 				FA5493D522BF28A80055E200 /* RoomDetail.swift in Sources */,
 			);

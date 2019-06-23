@@ -22,7 +22,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use a UIHostingController as window root view controller
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: RoomList(store: RoomStore(rooms: testData)))
+//            window.rootViewController = UIHostingController(rootView: RoomList(store: RoomStore(rooms: testData)))
+            window.rootViewController = UIHostingController(rootView: OrderForm())
+//            window.rootViewController = UIHostingController(rootView: EggMainView())
             self.window = window
             window.makeKeyAndVisible()
         }
